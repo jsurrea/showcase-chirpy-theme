@@ -8,35 +8,36 @@ theme: jekyll-theme-chirpy
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+# TODO: Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: America/Bogota
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Showcase Chirpy # TODO: Change the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Chirpy fork for showcasing projects # TODO: Change the tagline that will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >- # TODO: Change the description that will be used by seo meta and the atom feed
+  Easily publish stunning websites for your projects, business or portfolio — all written in simple Markdown.
 
-# Fill in the protocol & hostname for your site.
+# TODO: Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://jsurrea.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: github_username # TODO: Change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: twitter_username # TODO: Change to your Twitter username (or delete this line if you don't have one)
 
 social:
-  # Change to your full name.
+  # TODO: Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: your_full_name
-  email: example@domain.com # change to your email address
+  email: example@domain.com # TODO: Change to your email address
   links:
+    # TODO: Change to your social links (remove the ones you don't have)
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/username # change to your GitHub homepage
@@ -44,7 +45,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-# Site Verification Settings
+# TODO: Add your site verification settings
 webmaster_verifications:
   google: # fill in your Google verification code
   bing: # fill in your Bing verification code
@@ -56,7 +57,7 @@ webmaster_verifications:
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-# Web Analytics Settings
+# TODO: Add your web analytics settings
 analytics:
   google:
     id: # fill in your Google Analytics ID
@@ -95,14 +96,18 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+cdn:
 
-# the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+# TODO: Add the avatar on sidebar, support local or CORS resources
+# To use your GitHub profile picture, you can use the following format:
+# avatar: "https://github.com/username.png"
+avatar: "https://chirpy-img.netlify.app/commons/avatar.jpg"
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# TODO: Add the URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+# To use your GitHub profile picture, you can use the following format:
+# social_preview_image: "https://github.com/username.png"
+social_preview_image: "https://chirpy-img.netlify.app/commons/social_preview_image.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -140,17 +145,20 @@ assets:
 pwa:
   enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
-
-# The base URL of your site
-baseurl: ""
+# TODO: Add the base URL of your site
+# If you are using GitHub Pages, use the following format:
+#   If your GitHub Pages site is <username>.github.io, use:
+#     baseurl: ""
+#   If your GitHub Pages site is <username>.github.io/<repository>, use:
+#     baseurl: "/<repository>"
+baseurl: "/showcase-chirpy-theme"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -191,6 +199,7 @@ defaults:
       type: tabs # see `site.collections`
     values:
       layout: page
+      toc: true
       permalink: /:title/
 
 sass:

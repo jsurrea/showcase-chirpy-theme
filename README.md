@@ -1,84 +1,36 @@
-<!-- markdownlint-disable-next-line -->
-<div align="center">
+# Showcase Chirpy Theme
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+This is a fork of [Chirpy](https://chirpy.cotes.page/), a static website generator that empowers you to publish beautiful websites with markdown syntax. The original project is focused on building blog websites; I decided to give it a turn to support people who want to use the awesomeness and simplicity of the theme for showcasing their personal projects. 
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+This should be a good starting point for research groups, startups, project documentation or tech enthusiasts to share their work on the internet, or even to publish your personal portfolio and CV. After all, it's all markdown! Use it to give a professional look to your idea and iterate fast. With this theme, you can focus on the content, and rest assured that your website will look gorgeous ✨
 
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
+## How to use this theme
 
-  [**Live Demo** →][demo]
+To build your own, check the following resources:
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+- [Getting Started with Chirpy](https://chirpy.cotes.page/posts/getting-started/)
+- [Write your first post](https://chirpy.cotes.page/posts/write-a-new-post/)
+- [Showcase](https://chirpy.cotes.page/posts/text-and-typography/)
 
-</div>
+Additionally, there's a few elements that you can customize to make the website truly _yours_ (for example, the title). Head over to the following files and search for all the `TODO` tags, where you will find concise documentation and examples to use this theme to the max potential 😎
+- `_config.yml`
+- `_data/contact.yml`
+- `_data/share.yml`
+- `index.md`
 
-## Features
+## How does this work?
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
+If you have previous experience with Chirpy, this is an overview of the changes that I applied on this fork:
+- Added support to show the Table of Contents (ToC) within the layout for `page` (huge shoutout to [rafisics](https://github.com/rafisics) who shared a guide on how to do this [here](https://github.com/cotes2020/jekyll-theme-chirpy/discussions/2241)).
+- Changed the default layout of the tab elements to use the `page` layout.
+- Changed the layout of the home page (`index.md`) to use the `page` layout as well.
 
-## Documentation
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+## Contributions
 
-## Contributing
+Feel free to contribute with more awesomeness! This project is open to improvements of all kinds 😄 That said, there's a few things I believe would be very useful for the theme:
+- Migrating features to other layouts (specially `page`). Think about search, comments, word count, etc.
+- New layouts and components, pottentially useful for showcasing.
+- Customization: Colors, icons, sizes, etc.
+- Improved documentation and tutorials.
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
-
-## Credits
-
-### Contributors
-
-Thanks to [all the contributors][contributors] involved in the development of the project!
-
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
-
-### Third-Party Assets
-
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
-
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
-
-## License
-
-This project is published under [MIT License][license].
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
