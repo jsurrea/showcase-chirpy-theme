@@ -157,8 +157,8 @@ pwa:
 #   If your GitHub Pages site is <username>.github.io, use:
 #     baseurl: ""
 #   If your GitHub Pages site is <username>.github.io/<repository>, use:
-#     baseurl: "/<repository>"
-baseurl: "/showcase-chirpy-theme"
+#     baseurl: "/<repository>/"
+baseurl: "/showcase-chirpy-theme/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
